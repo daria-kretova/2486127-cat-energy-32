@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <title>Питание "Кэт Энерджи" - проект Дарьи Кретовой</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/favicon-apple.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -17,8 +17,16 @@
   <header class="main-header">
     <div class="screen-stretch-wrapper">
       <a class="main-header__logo" href="#">
-        <img class="main-header__logo-pic" src="/images/logo-pic.svg" width="33" height="38" alt="Иконка логотипа Кэт Энерджи">
-        <img class="main-header__logo-text logo-text" src="/images/logo-text.svg" width="100" height="18" alt="Текстовое название логотипа Кэт Энерджи">
+        <picture>
+          <source media="(min-width: 1400px)" width="70" height="60" type="image/svg+xml" srcset="images/logo-pic-pc.svg">
+          <source media="(min-width: 768px)" width="50" height="60" type="image/svg+xml" srcset="images/logo-pic-tablet.svg">
+          <img class="logo-pic" src="images/logo-pic-mobile.svg" width="33" height="38" alt="Иконка логотипа Кэт Энерджи">
+        </picture>
+        <picture>
+          <source media="(min-width: 1400px)" width="118" height="20" type="image/svg+xml" srcset="images/logo-text-pc.svg">
+          <source media="(min-width: 768px)" width="100" height="18" type="image/svg+xml" srcset="images/logo-text-tablet.svg">
+          <img class="logo-text" src="images/logo-text-mobile.svg" width="100" height="20" alt="Текстовое название логотипа Кэт Энерджи">
+        </picture>
       </a>
       <nav class="main-header__main-nav main-nav">
         <button class="main-nav__toggle" type="button">
@@ -47,7 +55,11 @@
         <header class="nutrition-programs__header">
           <h1 class="nutrition-programs__title">Функциональное питание для котов</h1>
           <p class="nutrition-programs__description">Занялся собой? Займись котом!</p>
-          <img class="nutrition-programs__img" src="/images/index-main-img-mobile.png" width="280" height="270" alt="Упаковка питания Кэт Энерджи с курицей">
+          <picture>
+            <source media="(min-width: 1440px)" width="552" height="500" type="image/png" srcset="images/index-can-pc@1x.png 1x, images/index-can-pc@2x.png 2x">
+            <source media="(min-width: 768px)" width="710" height="610" type="image/png" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x">
+            <img class="nutrition-programs__img" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Упаковка питания Кэт Энерджи с курицей">
+          </picture>
           <button class="nutrition-programs__button" type="button">Подобрать программу</button>
         </header>
       </div>
@@ -125,7 +137,11 @@
       <div class="screen-stretch-wrapper">
         <h3 class="main-contacts__title">Приглашаем к сотрудничеству дилеров!</h3>
         <address class="main-contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-        <img src="images/map.png" width="320" height="362" alt="Карта с указанием адреса офиса">
+        <picture>
+          <source media="(min-width: 1440px)" width="1440" height="400" type="image/png" srcset="images/map-pc@1x.png 1x, images/map-pc@2x.png 2x">
+          <source media="(min-width: 768px)" width="768" height="400" type="image/png" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+          <img class="main-contacts-map" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x" width="320" height="362" alt="Карта с указанием адреса офиса">
+        </picture>
       </div>
     </section>
   </main>
