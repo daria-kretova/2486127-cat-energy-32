@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Дария Кретова](https://up.htmlacademy.ru/adaptive/32/user/2486127).
-* Наставник: [Оксана Вайнруб](https://htmlacademy.ru/profile/id166797).
+* Наставник: [Иван Жарков](https://htmlacademy.ru/profile/id191422).
 
 ---
 
