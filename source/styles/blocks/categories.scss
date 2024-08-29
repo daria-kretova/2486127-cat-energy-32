@@ -25,16 +25,24 @@
   transform: translate(15px, 7px);
 }
 
-.categories__card-slim::before {
-  content: "";
-  position: absolute;
+.categories__card-slim {
   background-image: url("../../icons/stack.svg#categories__card-slim");
+  background-position: 13px 24px;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 36px;
-  height: 50px;
-  transform: translate(27px, -21px);
+  background-size: 67px 50px;
 }
+
+
+// .categories__card-slim::before {
+//   content: "";
+//   position: absolute;
+//   background-image: url("../../icons/stack.svg#categories__card-slim");
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   width: 36px;
+//   height: 50px;
+//   transform: translate(27px, -21px);
+// }
 
 .categories__card-pro::before {
   content: "";
