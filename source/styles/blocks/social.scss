@@ -1,0 +1,31 @@
+.social__item {
+  list-style: none;
+}
+
+.social__link--vkontakte {
+  mask-image: url("../../icons/stack.svg#icon-vk");
+}
+
+.social__link--youtube {
+  mask-image: url("../../icons/stack.svg#icon-youtube");
+}
+
+.social__link--telegram {
+  mask-image: url("../../icons/stack.svg#icon-telegram");
+}
+
+.social__link--vkontakte:hover,
+.social__link--vkontakte:focus,
+.social__link--youtube:hover,
+.social__link--youtube:focus,
+.social__link--telegram:hover,
+.social__link--telegram:focus {
+  background-color: $bg-basic-green;
+}
+
+.social__link--vkontakte:active,
+.social__link--youtube:active,
+.social__link--telegram:active {
+  opacity: 30%;
+}
+

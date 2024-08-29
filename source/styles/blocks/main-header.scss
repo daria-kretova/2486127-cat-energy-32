@@ -1,0 +1,10 @@
+.logo-pic:hover,
+.logo-text:hover,
+.logo-text:focus {
+  opacity: 70%;
+}
+
+.logo-pic:active,
+.logo-text:active {
+  opacity: 40%;
+}

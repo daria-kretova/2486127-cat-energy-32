@@ -1,0 +1,47 @@
+.method-application__item--step-one::before {
+  background-image: url("../../icons/stack.svg#method-application-1");
+  background-color: $bg-basic-green;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  transform: translate(-20px, 0);
+}
+
+.method-application__item--step-two::before {
+  background-image: url("../../icons/stack.svg#method-application-2");
+  background-color: $bg-basic-green;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  transform: translate(-20px, 0);
+}
+
+.method-application__item--step-three::before {
+  background-image: url("../../icons/stack.svg#method-application-3");
+  background-color: $bg-basic-green;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  transform: translate(-20px, 0);
+}
+
+.method-application__item--step-four::before {
+  background-image: url("../../icons/stack.svg#method-application-4");
+  background-color: $bg-basic-green;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  transform: translate(-20px, 0);
+}
