@@ -1,47 +1,38 @@
-.method-application__item--step-one::before {
-  background-image: url("../../icons/stack.svg#method-application-1");
+.method-application__list {
+  list-style: none;
+}
+
+.method-application__item::before {
   background-color: $bg-basic-green;
   content: "";
   position: absolute;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-x: 50%;
+  background-position-y: center;
   width: 60px;
   height: 60px;
-  transform: translate(-20px, 0);
+}
+
+.method-application__item--step-one::before {
+  background-image: url("../../icons/stack.svg#method-application-1");
+  background-size: 25px 28px;
 }
 
 .method-application__item--step-two::before {
   background-image: url("../../icons/stack.svg#method-application-2");
-  background-color: $bg-basic-green;
-  content: "";
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 60px;
-  height: 60px;
-  transform: translate(-20px, 0);
+  background-size: 26px 29px;
 }
 
 .method-application__item--step-three::before {
   background-image: url("../../icons/stack.svg#method-application-3");
-  background-color: $bg-basic-green;
-  content: "";
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 60px;
-  height: 60px;
-  transform: translate(-20px, 0);
+  background-size: 25px 30px;
 }
 
 .method-application__item--step-four::before {
   background-image: url("../../icons/stack.svg#method-application-4");
-  background-color: $bg-basic-green;
-  content: "";
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 60px;
-  height: 60px;
-  transform: translate(-20px, 0);
+  background-size: 26px 31px;
+}
+
+.method-application__description {
+  padding-left: 20px;
 }
