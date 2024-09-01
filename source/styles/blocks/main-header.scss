@@ -1,10 +1,8 @@
-.logo-pic:hover,
-.logo-text:hover,
-.logo-text:focus {
+.main-header__logo:hover,
+.main-header__logo:focus {
   opacity: 70%;
 }
 
-.logo-pic:active,
-.logo-text:active {
+.main-header__logo:active {
   opacity: 40%;
 }

@@ -1,6 +1,12 @@
-.nutrition-programs {
-  background-color: rgba(104, 183, 56, 0.85);
+.nutrition-programs__header {
   color: #ffffff;
+  background-color: $bg-basic-green;
+  background-image: url("../images/hero-bg-mobile@1x.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 320px;
+  text-align: center;
 }
 
 .nutrition-programs__title {
@@ -14,4 +20,8 @@
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
+}
+
+.nutrition-programs__img {
+  display: block;
 }
