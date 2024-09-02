@@ -1,3 +1,9 @@
 .main-footer {
   background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+}
 }

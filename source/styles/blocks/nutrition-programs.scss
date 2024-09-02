@@ -7,12 +7,29 @@
   background-size: cover;
   min-height: 320px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    color: #000000;
+    background-color: unset;
+    background-image: unset;
+    background-position: unset;
+    background-repeat: unset;
+    background-size: unset;
+    min-height: 690px;
+    text-align: left;
+  }
 }
 
 .nutrition-programs__title {
   font-family: $secondary-font;
   font-size: 36px;
   line-height: 36px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+  }
 }
 
 .nutrition-programs__description {
@@ -20,6 +37,12 @@
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
 }
 
 .nutrition-programs__img {

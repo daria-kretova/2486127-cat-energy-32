@@ -1,5 +1,18 @@
+.categories {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+}
+
 .categories__card {
   background-color: #f2f2f2;
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    min-height: 374px;
+  }
 }
 
 
