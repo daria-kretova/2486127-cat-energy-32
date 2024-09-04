@@ -9,7 +9,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 154px;
+    column-gap: 37px;
   }
 
   @media (min-width: $desktop-width) {
@@ -36,6 +36,12 @@
   background-position: 50%;
   width: 60px;
   height: 60px;
+
+  @media (min-width: $tablet-width) {
+    width: 80px;
+    height: 80px;
+    top: 40px;
+  }
 }
 
 .method-application__item--step-one::before {
@@ -124,5 +130,7 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
+    padding-left: unset;
+    padding-top: 151px;
   }
 }
