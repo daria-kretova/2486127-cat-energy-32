@@ -1,26 +1,165 @@
-.categories {
+.categories__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
     gap: 80px;
+    justify-content: space-between;
   }
 }
 
 .categories__card {
   background-color: #f2f2f2;
+  position: relative;
+  padding: 30px 20px 22px;
+  margin: 20px 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 77px 53px 53px;
+    margin: 30px 0;
+  }
 
   @media (min-width: $desktop-width) {
-    width: 570px;
+    min-width: 570px;
     min-height: 374px;
+    padding: 77px 52px 59px;
+    margin: 110px 0;
   }
 }
 
+.categories__card::before {
+  content: "";
+  position: absolute;
+  background-color: $bg-basic-green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 24px;
+  left: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 200px;
+    height: 200px;
+    top: 92px;
+    right: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 100px;
+    top: 47px;
+    left: 52px;
+  }
+}
+
+.categories__card-slim::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#categories-card-slim");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 36px 50px;
+  width: 36px;
+  height: 50px;
+  top: 21px;
+  left: 27px;
+
+  @media (min-width: $tablet-width) {
+    background-size: 140px 194px;
+    width: 140px;
+    height: 194px;
+    top: 81px;
+    right: 93px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-size: 70px 97px;
+    width: 70px;
+    height: 97px;
+    top: 41px;
+    left: 67px;
+  }
+}
+
+.categories__card-pro::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#categories-card-pro");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 67px 28px;
+  width: 67px;
+  height: 28px;
+  top: 35px;
+  left: 12px;
+
+  @media (min-width: $tablet-width) {
+    background-size: 268px 112px;
+    width: 268px;
+    height: 112px;
+    top: 135px;
+    right: 29px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-size: 134px 56px;
+    width: 134px;
+    height: 56px;
+    top: 67px;
+    left: 33px;
+  }
+}
 
 .categories__card-title {
   font-family: $secondary-font;
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
+  margin: 0;
+  padding-left: 90px;
+  padding-bottom: 30px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    padding-left: unset;
+    padding-bottom: 24px;
+    max-width: 340px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 214px;
+    padding-bottom: 73px;
+    max-width: unset;
+  }
+}
+
+.categories__card-description {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  margin: 0;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 48px;
+    border-bottom: unset;
+    max-width: 340px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 23px;
+    max-width: unset;
+  }
 }
 
 .categories__card-link {
@@ -30,6 +169,11 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .categories__card-link::after {
@@ -41,26 +185,8 @@
   width: 32px;
   height: 10px;
   transform: translate(15px, 7px);
-}
 
-.categories__card-slim::before {
-  content: "";
-  position: absolute;
-  background-image: url("../../icons/stack.svg#categories-card-slim");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 36px;
-  height: 50px;
-  transform: translate(27px, -21px);
-}
-
-.categories__card-pro::before {
-  content: "";
-  position: absolute;
-  background-image: url("../../icons/stack.svg#categories-card-pro");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 67px;
-  height: 28px;
-  transform: translate(12px, -35px);
+  @media (min-width: $tablet-width) {
+    transform: translate(25px, 11px);
+  }
 }
