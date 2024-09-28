@@ -20,6 +20,10 @@
   @media (min-width: $tablet-width) {
     margin: unset;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 4px 0 8px;
+  }
 }
 
 .main-header__logo {
@@ -35,6 +39,10 @@
     margin-left: 20px;
     width: 53%;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 118px;
+  }
 }
 
 .main-header__logo--click:hover,
@@ -45,6 +53,13 @@
 
 .main-header__logo--click:active {
   opacity: 40%;
+}
+
+.main-header__nav {
+  @media (min-width: $desktop-width) {
+    max-width: 600px;
+    margin-left: auto;
+  }
 }
 
 .main-header__nav-toggle {

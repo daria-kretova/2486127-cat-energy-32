@@ -53,6 +53,11 @@
     max-width: 250px;
     min-height: 280px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: unset;
+    align-items: unset;
+  }
 }
 
 .method-application__item::before {
@@ -159,5 +164,9 @@
     line-height: 24px;
     padding-left: unset;
     padding-top: 55px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 105px;
   }
 }
