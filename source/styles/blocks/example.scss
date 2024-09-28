@@ -109,6 +109,10 @@
   display: block;
   cursor: pointer;
 
+  @media (min-width: $desktop-width) {
+    height: 512px;
+  }
+
   &::before {
     content: "";
     width: 40px;

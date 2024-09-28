@@ -16,15 +16,18 @@
 
 .social__list {
   display: flex;
-  padding: 0;
+  padding: 23px;
   justify-content: center;
-  gap: 24px;
+  gap: 30px;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     justify-content: flex-start;
     gap: 28px;
+    padding: unset;
     padding-left: 20px;
     padding-top: 2px;
+
   }
 
   @media (min-width: $tablet-width) {
