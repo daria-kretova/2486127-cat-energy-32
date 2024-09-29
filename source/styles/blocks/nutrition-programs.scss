@@ -40,6 +40,10 @@
   align-items: center;
 
   // @media (min-width: $desktop-width) {
+  //   position: absolute;
+  // }
+
+  // @media (min-width: $desktop-width) {
   //   grid-template-columns: 50% 1fr;
   //   align-items: start;
   //   display: block;
@@ -118,15 +122,23 @@
     margin-top: -85px;
   }
 
+  // @media (min-width: $desktop-width) {
+  //   position: relative;
+  //   top: -250px;
+  //   left: 325px;
+  //   width: 552px;
+  //   height: 500px;
+  // }
+
   @media (min-width: $desktop-width) {
     margin-top: -370px;
     margin-left: 450px;
 
-    // grid-area: img-programs;
-    // align-self: start;
-    // align-items: center;
-    // grid-row: 1 / 3;
-    // display: block;
+    //   // grid-area: img-programs;
+    //   // align-self: start;
+    //   // align-items: center;
+    //   // grid-row: 1 / 3;
+    //   // display: block;
   }
 }
 
@@ -148,12 +160,5 @@
 
       // grid-area: button-programs;
     }
-
-    // чтобы текст кнопки был по середине 1 и 2 варианты, сделала на общий button
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-
-    // padding-top: 14px;
   }
 }
