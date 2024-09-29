@@ -67,6 +67,7 @@
   line-height: 36px;
   padding: 27px 14px 12px;
   margin: 0;
+  font-weight: 400;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -112,9 +113,15 @@
   }
 }
 
+.nutrition-programs__header picture {
+  @media (min-width: $desktop-width) {
+    order: -10;
+  }
+}
+
 .nutrition-programs__img {
   text-align: center;
-  display: block;
+  display: unset;
   margin-top: -13px;
 
   @media (min-width: $tablet-width) {
@@ -131,8 +138,10 @@
   // }
 
   @media (min-width: $desktop-width) {
-    margin-top: -370px;
-    margin-left: 450px;
+    margin-top: -24px;
+    margin-bottom: -760px;
+    margin-left: 446px;
+    display: block;
 
     //   // grid-area: img-programs;
     //   // align-self: start;
