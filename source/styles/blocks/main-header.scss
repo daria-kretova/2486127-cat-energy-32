@@ -79,6 +79,10 @@
   }
 }
 
+.main-header__nav-toggle--nojs {
+  display: none;
+}
+
 .main-header__nav-toggle--closed::before {
   content: "";
   background-color: #000000;
