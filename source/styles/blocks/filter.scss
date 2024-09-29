@@ -19,6 +19,10 @@
     border-bottom: 1px solid #cdcdcd;
     padding: 5px;
   }
+
+  @media (min-width: $tablet-width) {
+    padding: 5px 0;
+  }
 }
 
 .filter__value {

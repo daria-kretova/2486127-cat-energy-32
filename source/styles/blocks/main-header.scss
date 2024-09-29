@@ -8,9 +8,8 @@
     align-items: center;
   }
 
-
   @media (min-width: $desktop-width) {
-    padding: 50px 110px 43px;
+    padding: 50px 110px 40px;
   }
 }
 
@@ -42,6 +41,7 @@
 
   @media (min-width: $desktop-width) {
     width: 118px;
+    margin-left: 14px;
   }
 }
 

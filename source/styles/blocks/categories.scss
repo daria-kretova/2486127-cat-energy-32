@@ -27,7 +27,7 @@
     min-height: 374px;
     width: 570px;
     margin: 0;
-    margin-top: 18px;
+    margin-top: 14px;
     padding: 35px 52px 18px;
   }
 }
@@ -196,9 +196,13 @@
     height: 10px;
     margin-top: -5px;
     top: 50%;
-    right: -46px;
+    right: -48px;
     transform-origin: left center;
     transition: all 0.3s linear;
+
+    @media (min-width: $tablet-width) {
+      right: -58px;
+    }
   }
 
   &:is(:hover, :focus-visible, :focus)::after {

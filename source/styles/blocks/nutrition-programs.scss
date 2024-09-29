@@ -38,6 +38,23 @@
   // align-items: center;
   display: grid;
   align-items: center;
+
+  // @media (min-width: $desktop-width) {
+  //   grid-template-columns: 50% 1fr;
+  //   align-items: start;
+  //   display: block;
+  // }
+
+  // @media (min-width: $desktop-width) {
+  //   grid-template-columns: 50% 1fr;
+  //   grid-template-areas:
+  //     "title-programs       img-programs"
+  //     "description-programs img-programs"
+  //     "button-programs      img-programs";
+  //   justify-self: start;
+  //   align-items: start;
+  //   display: block;
+  // }
 }
 
 .nutrition-programs__title {
@@ -60,6 +77,8 @@
   @media (min-width: $desktop-width) {
     padding: 55px 80px 40px;
     max-width: 650px;
+
+    // grid-area: title-programs;
   }
 }
 
@@ -84,6 +103,8 @@
   @media (min-width: $desktop-width) {
     max-width: 655px;
     padding: 0 80px 52px;
+
+    // grid-area: description-programs;
   }
 }
 
@@ -100,6 +121,12 @@
   @media (min-width: $desktop-width) {
     margin-top: -370px;
     margin-left: 450px;
+
+    // grid-area: img-programs;
+    // align-self: start;
+    // align-items: center;
+    // grid-row: 1 / 3;
+    // display: block;
   }
 }
 
@@ -118,6 +145,8 @@
 
     @media (min-width: $desktop-width) {
       margin-left: 80px;
+
+      // grid-area: button-programs;
     }
 
     // чтобы текст кнопки был по середине 1 и 2 варианты, сделала на общий button

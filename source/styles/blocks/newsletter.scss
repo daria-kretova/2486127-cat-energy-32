@@ -35,7 +35,7 @@
   @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
-    margin-left: 110px;
+    margin: -18px 0 73px 38px;
 
 
     // &::before {
@@ -122,12 +122,11 @@
   width: 100%;
 
   @media (min-width: $tablet-width) {
-    width: unset;
-    min-width: 376px;
+    width: 376px;
   }
 
   @media (min-width: $tablet-width) {
-    min-width: 500px;
+    width: 500px;
   }
 }
 
@@ -147,6 +146,10 @@
   cursor: pointer;
   width: 100%;
   height: 56px;
+
+  @media (min-width: $tablet-width) {
+    width: 336px;
+  }
 
   @media (min-width: $tablet-width) {
     width: 256px;
