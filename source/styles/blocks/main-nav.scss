@@ -19,13 +19,6 @@
   }
 }
 
-// .main-nav__wrapper {
-//   @media (min-width: $desktop-width) {
-//     padding-left: 320px;
-//   }
-// }
-
-
 .main-nav__list {
   list-style: none;
   padding: 0;
@@ -38,14 +31,10 @@
     gap: 35px;
     flex-wrap: wrap;
   }
-
-  // @media (min-width: $desktop-width) {
-  //   padding-left: 320px;
-  // }
 }
 
 .main-nav__item {
-  padding: 22px 0 24px;
+  padding: 20px 0 22px;
   text-align: center;
   border-top: 1px solid #e6e6e6;
 

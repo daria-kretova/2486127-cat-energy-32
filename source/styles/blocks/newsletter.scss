@@ -22,33 +22,10 @@
   margin: -5px 0 31px;
   font-weight: 400;
 
-  // &::after {
-  //   content: "";
-  //   background-color: $bg-basic-green;
-  //   width: 100%;
-  //   height: 2px;
-  //   position: absolute;
-  //   top: 12px;
-  //   display: block;
-  //   z-index: -1;
-  // }
-
   @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
     margin: -18px 0 73px 38px;
-
-
-    // &::before {
-    //   content: "";
-    //   background-color: #68b738;
-    //   width: 70px;
-    //   height: 2px;
-    //   display: block;
-    //   position: absolute;
-    //   top: 12px;
-    //   left: 0;
-    // }
   }
 
   @media (min-width: $desktop-width) {
@@ -75,7 +52,6 @@
     box-shadow:
       50vw 0 0 $bg-basic-green,
       -50vw 0 0 $bg-basic-green;
-
     top: 7%;
   }
 }
@@ -152,7 +128,7 @@
     width: 336px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     width: 256px;
   }
 }
