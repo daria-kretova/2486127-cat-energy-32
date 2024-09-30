@@ -48,11 +48,9 @@
   background-color: $bg-basic-green;
   box-shadow: 50vw 0 0 $bg-basic-green;
 
-  @media (min-width: $tablet-width) {
-    box-shadow:
-      50vw 0 0 $bg-basic-green,
-      -50vw 0 0 $bg-basic-green;
-    top: 7%;
+
+  @media (min-width: $desktop-width) {
+    top: 9%;
   }
 }
 

@@ -57,13 +57,13 @@
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
-    margin: 43px 0 0;
+    margin: 46px 0 0;
   }
 }
 
 .other-products__title::after {
   position: absolute;
-  top: 40px;
+  top: 35px;
   left: 0;
   z-index: -1;
   transform: translateY(-50%);
@@ -78,6 +78,11 @@
     box-shadow:
       50vw 0 0 $bg-basic-green,
       -50vw 0 0 $bg-basic-green;
+    top: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 45px;
   }
 }
 
@@ -178,9 +183,11 @@
   height: 40px;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 15px;
 
   @media (min-width: $tablet-width) {
     grid-column: -1/1;
+    margin-top: unset;
   }
 
   @media (min-width: $desktop-width) {

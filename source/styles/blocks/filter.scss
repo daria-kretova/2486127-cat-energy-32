@@ -20,7 +20,7 @@
     padding: 5px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     padding: 5px 0;
   }
 }
@@ -28,4 +28,16 @@
 .filter__value {
   text-align: right;
   margin: 0;
+}
+
+.filter__name--additional-card,
+.filter__value--additional-card {
+  font-size: 14px;
+  line-height: 14px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 5px;
+  }
 }
