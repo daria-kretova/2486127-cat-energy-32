@@ -1,5 +1,9 @@
 .other-products {
   position: relative;
+
+  @media (min-width: $desktop-width) {
+    margin-top: -4px;
+  }
 }
 
 .other-products-wrapper {
